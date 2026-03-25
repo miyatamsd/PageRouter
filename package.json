@@ -1,9 +1,13 @@
 {
   "private": true,
   "scripts": {
-    "build": "next build",
+    "build": "cross-env APP_ENV=production next build",
+    "build:maintenance": "cross-env APP_ENV=maintenance dotenv -e .env.maintenance next build",
+    "build:staging": "cross-env APP_ENV=staging dotenv -e .env.staging next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "cross-env APP_ENV=production next start",
+    "start:maintenance": "cross-env APP_ENV=maintenance dotenv -e .env.maintenance next start",
+    "start:staging": "cross-env APP_ENV=staging dotenv -e .env.staging next start"
   },
   "dependencies": {
     "date-fns": "^4.1.0",
@@ -16,5 +20,10 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "cross-env": "^10.1.0",
+    "dotenv-cli": "^11.0.0"
   }
 }

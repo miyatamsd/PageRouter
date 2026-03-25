@@ -1,0 +1,66 @@
+{
+  "version": 4,
+  "routes": {
+    "/posts/pre-rendering": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/posts/[id]",
+      "dataRoute": "/_next/data/Gj9qCwIGZCQLN0rssINwO/posts/pre-rendering.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/posts/ssg-ssr": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/posts/[id]",
+      "dataRoute": "/_next/data/Gj9qCwIGZCQLN0rssINwO/posts/ssg-ssr.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": null,
+      "dataRoute": "/_next/data/Gj9qCwIGZCQLN0rssINwO/index.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "dynamicRoutes": {
+    "/posts/[id]": {
+      "routeRegex": "^/posts/([^/]+?)(?:/)?$",
+      "dataRoute": "/_next/data/Gj9qCwIGZCQLN0rssINwO/posts/[id].json",
+      "fallback": false,
+      "dataRouteRegex": "^/_next/data/Gj9qCwIGZCQLN0rssINwO/posts/([^/]+?)\\.json$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "4997b8ed104601f0dc7c1ea75654f8e6",
+    "previewModeSigningKey": "cbc566ef37bd368ec44bd5865fbe22f00079ff6678fa34f66d23d012e6ca44c4",
+    "previewModeEncryptionKey": "6224624767690b7e1c6a2318c69d94a8f65c70ae74a1616d061d36b544069309"
+  }
+}

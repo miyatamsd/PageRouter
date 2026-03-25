@@ -6,6 +6,7 @@ import Link from 'next/link';
 import Date from '../components/date'
 
 export default function Home({ allPostsData }) {
+  console.log('開発環境: Homeコンポーネントがレンダリングされました');
   return (
     <Layout home>
       {/* Keep the exiting code here */}

@@ -1,0 +1,66 @@
+{
+  "version": 4,
+  "routes": {
+    "/posts/pre-rendering": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/posts/[id]",
+      "dataRoute": "/_next/data/L_KGE3P-sLXNYsGkZ0EEM/posts/pre-rendering.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/posts/ssg-ssr": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/posts/[id]",
+      "dataRoute": "/_next/data/L_KGE3P-sLXNYsGkZ0EEM/posts/ssg-ssr.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": null,
+      "dataRoute": "/_next/data/L_KGE3P-sLXNYsGkZ0EEM/index.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "dynamicRoutes": {
+    "/posts/[id]": {
+      "routeRegex": "^/posts/([^/]+?)(?:/)?$",
+      "dataRoute": "/_next/data/L_KGE3P-sLXNYsGkZ0EEM/posts/[id].json",
+      "fallback": false,
+      "dataRouteRegex": "^/_next/data/L_KGE3P\\-sLXNYsGkZ0EEM/posts/([^/]+?)\\.json$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "e1e059de9cd92681084614c71c2bfa05",
+    "previewModeSigningKey": "056240572a164eea67024bad0d46b85e7df02a917caad2bbd0fe6223ffd03e5e",
+    "previewModeEncryptionKey": "c6e57d63934253e82aa3be62b1cdc855c150c19ac4313b8ee5f1e234e0705a2c"
+  }
+}

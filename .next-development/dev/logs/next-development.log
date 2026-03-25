@@ -1,5 +1,15 @@
-[00:00:03.326] Server  LOG     ✓ Ready in 2.4s
-[00:00:08.844] Server  LOG     開発環境: Homeコンポーネントがレンダリングされました
-[00:00:09.439] Browser LOG     開発環境: Homeコンポーネントがレンダリングされました
-[00:00:09.439] Browser LOG     開発環境: Homeコンポーネントがレンダリングされました
-[00:00:09.439] Browser LOG     現在の環境: 開発環境 (development)
+[00:00:01.184] Server  LOG     ✓ Ready in 775ms
+[00:00:07.178] Server  LOG     開発環境: Homeコンポーネントがレンダリングされました
+[00:00:07.661] Browser LOG     開発環境: Homeコンポーネントがレンダリングされました
+[00:00:07.661] Browser LOG     開発環境: Homeコンポーネントがレンダリングされました
+[00:00:07.661] Browser LOG     現在の環境: 開発環境 (development)
+[00:00:15.747] Browser LOG     ページ遷移: /posts/ssg-ssr
+[00:00:18.584] Server  LOG     開発環境: Homeコンポーネントがレンダリングされました
+[00:00:18.722] Browser LOG     開発環境: Homeコンポーネントがレンダリングされました
+[00:00:18.722] Browser LOG     開発環境: Homeコンポーネントがレンダリングされました
+[00:00:18.723] Browser LOG     ページ遷移: /
+[00:00:20.308] Browser LOG     ページ遷移: /posts/pre-rendering
+[00:00:22.545] Server  LOG     開発環境: Homeコンポーネントがレンダリングされました
+[00:00:22.680] Browser LOG     開発環境: Homeコンポーネントがレンダリングされました
+[00:00:22.680] Browser LOG     開発環境: Homeコンポーネントがレンダリングされました
+[00:00:22.680] Browser LOG     ページ遷移: /

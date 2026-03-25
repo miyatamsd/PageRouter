@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "ed1453ffe2d52defae621684c34eaf64",
-    "previewModeSigningKey": "cea31f71f0dcbeb69f777b6b215cba621e972076885bb0ef38b05b7f87ddad2f",
-    "previewModeEncryptionKey": "1092ac835573e7ad078924c0c51b7434b3cd637bf9fb5959ade4f646df2530e6"
-  }
-}
+{"version":4,"routes":{"/posts/pre-rendering":{},"/posts/ssg-ssr":{}},"dynamicRoutes":{"/posts/[id]":{"dataRoute":null,"dataRouteRegex":null,"fallback":false,"fallbackRevalidate":false,"fallbackSourceRoute":"/posts/[id]","routeRegex":"^\\/posts\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"9a361fce5eba261da13ca3a416f02626","previewModeSigningKey":"53ee3993dcf7e2ed1c32966787f044c2ee6ff969f3a4c54b2bb4fa9814e1a117","previewModeEncryptionKey":"9008c06b959b2af51fe391ec02daa6533c0487bc89ba2c265839a8cab1c32b26"}}

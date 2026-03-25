@@ -1,7 +1,9 @@
 self.__SERVER_FILES_MANIFEST={
   "version": 1,
   "config": {
-    "env": {},
+    "env": {
+      "APP_ENV": "production"
+    },
     "webpack": null,
     "typescript": {
       "ignoreBuildErrors": false
